@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chúc mừng trúng thưởng</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e6f3ea, #ffffff);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 40px 30px;
+      max-width: 600px;
+      width: 90%;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .gift-image {
+      width: 280px;
+      height: auto;
+      margin-bottom: 20px;
+      animation: pop 1s ease;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.7); opacity: 0; }
+      80% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+      color: #2b7a0b;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #d62828;
+      font-weight: bold;
+    }
+
+    .cta {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #333;
+    }
+
+    .follow-btn {
+      display: inline-block;
+      padding: 14px 24px;
+      background-color: #1877f2;
+      color: white;
+      font-size: 16px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .follow-btn:hover {
+      background-color: #145ecb;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #777;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://tiennong.vn/wp-content/uploads/2025/06/chau-nhua.png" alt="Chậu nhựa Tiến Nông" class="gift-image">
+    <div class="title">🎉 CHÚC MỪNG BẠN!</div>
+    <div class="subtitle">Bạn đã <span class="highlight">TRÚNG NGAY</span> <strong>01 CHẬU NHỰA TIẾN NÔNG</strong>!</div>
+    <p>Quà tặng đã thuộc về bạn – một phần thưởng nhỏ nhưng trọn vẹn tình cảm từ Tiến Nông dành cho bà con nông dân thân thiết.</p>
+
+    <div class="cta">
+      👉 Đừng bỏ lỡ cơ hội nhận thêm <strong>nhiều phần thưởng hấp dẫn</strong> trong thời gian tới!  
+      <br>Hãy <span class="highlight">LIKE & THEO DÕI</span> fanpage Tiến Nông ngay hôm nay!
+    </div>
+
+    <a href="https://www.facebook.com/Tiennong.vn" target="_blank" class="follow-btn">
+      ✅ Theo dõi Fanpage Tiến Nông để không bỏ lỡ khuyến mãi!
+    </a>
+
+    <div class="footer">© 2025 Công ty Cổ phần Công Nông nghiệp Tiến Nông</div>
+  </div>
+
+</body>
+</html>
